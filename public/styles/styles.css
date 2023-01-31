@@ -1,0 +1,101 @@
+/* HOME PAGE */
+html {
+    margin: 0px;
+    margin: auto;
+    padding: 0;
+}
+
+#logo {
+    margin-top: 0px;
+    margin: auto;
+    display: inline-flex;
+    z-index: 2;
+    position: fixed;
+}
+
+.navbar {
+    top: 0;
+    left:0;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    position: fixed;
+    justify-content: flex-end;
+    width: 90%;
+    list-style-type: none;
+    background-color: white;
+    padding:50px;
+    /* height: 44px; */
+}
+
+ul li{
+        margin-left: 15px;
+}
+
+
+/* Intro part  */
+.intro{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.title {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+.introimg{
+    display: flex;
+    justify-content: center;
+    height:90%;
+    width: 100%;
+}
+
+
+
+/* ABOUT PAGE */
+.titleabout {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right:50px;
+    margin-bottom: 50px;
+}
+
+.imgabout{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.picture{
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    width: 250px;
+}
+
+
+.abouttext{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    font-size:20px;
+}
